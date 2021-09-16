@@ -7,9 +7,6 @@ Dialog::Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->lineEdit->setText(QString::fromLocal8Bit("中国"));
-
-
-
     this->installEventFilter(this);
 }
 
